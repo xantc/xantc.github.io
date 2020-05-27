@@ -1,0 +1,306 @@
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("/fonts/MyriadPro-Regular.woff") format("woff");
+ }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Myriad Pro;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+.delimiter {
+  margin-top: 20px;
+}
+
+.content {
+  width: 1258px;
+  margin: 0 auto;
+}
+
+.navbar__list {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.navbar__link {
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.navbar__link:link {
+  text-decoration: none;
+  color: #949494;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navbar__link:visited {
+  color: #949494;
+}
+
+.sub__title {
+  margin-top: 30px;
+  margin-bottom: 55px;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #5b5b5b;
+}
+
+.sub__title-mod {
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 470px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  border-radius: 50px;
+}
+
+.button__holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button__holder-text {
+  width: 100%;
+  color: #838383;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.button__holder-text:hover {
+  color: #f1f1f1;
+}
+
+.button__holder-item {  
+  position: relative;
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+}
+
+.button__holder-item:hover {
+  background-color: #2f3032;
+}
+
+
+.hero {
+  display: flex;
+  
+}
+
+.hero__item {
+  position: relative;
+}
+
+.hero__item:first-child {
+  margin-right: 20px;
+}
+
+.hero__item-text {
+  width: 100%;
+}
+
+.hero__item-text{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.hero__item-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.hero__item-p {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 41px;
+  margin-bottom: 55px;
+}
+
+
+.main__content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__card {
+  margin-right: 12px;
+  margin-bottom: 25px;
+  display: flex;
+  width: 49%;
+}
+
+.main__card-content {
+  height: 308px;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #f3f3f3;
+  border-bottom: 2px solid #f3f3f3;
+  border-right: 2px solid #f3f3f3;
+  
+}
+
+.main__card-title {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main__card-calories {
+  font-size: 13px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.main__card-elipse {
+  padding: 5px 10px;
+}
+
+.main__card-ingridients {
+  height: 105px;
+  margin: 0 10px;
+  padding-bottom: 15px;
+}
+
+.elipse__img {
+  margin-right: 5px;
+}
+
+.main__card-elipse {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 25px;
+}
+
+.elipse__text {
+  color: #b5904e;
+}
+
+.main__card-social {
+  border-top: 2px solid #f3f3f3;
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__card-likes {
+  display: flex;
+  align-items: center;
+}
+
+.main__card-like-img {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.main__card-like-count {
+  color: #9b9b9b;
+  font-size: 15px;
+}
+
+.main__card-social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social__icon {
+  margin-right: 20px;
+}
+
+.main__card-photo {
+  position: relative;
+}
+
+.main__card-autor-imager {
+  margin-right: 7px;
+}
+
+.main__card-authorname {
+  font-size: 19px;
+  color: #bcbcbc;
+}
+
+.main__card-author {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.hot {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot__item {
+  width: 315px;
+  position: relative;
+}
+
+.hot__text {
+  text-align: center;
+  position: absolute;
+  font-size: 35px;
+  color: #f0f0f0;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%,-90%);
+}
+
+.footer {
+  background-color: #252627;
+  padding: 30px 0;
+}
+
+.footer__list {
+  display: flex;
+}
+
+.footer__link {
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.footer__link:link {
+  text-decoration: none;
+  color: #949494;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.footer__link:visited {
+  color: #949494;
+}
