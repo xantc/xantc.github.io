@@ -22,7 +22,7 @@
 .main__content {
   display: flex;
   flex-wrap: wrap;
-  background-image: url(img/map.jpg);
+  background-image: url(/img/map.jpg);
   height: 762px;
   width: 100%;
 }
