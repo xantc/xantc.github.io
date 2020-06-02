@@ -1,0 +1,29 @@
+.topareas {
+
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 95px;
+  }
+
+  &__item {
+    width: 29.3%;
+  }
+
+  &__title {
+    margin-bottom: 45px;
+    color: #566366;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}

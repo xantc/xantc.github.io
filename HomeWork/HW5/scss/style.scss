@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@import "intro";
+@import "header";
+@import "topareas";
+@import "about";
